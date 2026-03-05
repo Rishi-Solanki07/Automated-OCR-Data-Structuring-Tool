@@ -275,7 +275,7 @@ print("Granite text model is ready")
 
 
 ##  Cell 11 – Regex Patterns & Contact Extraction
-This cell defines regex patterns to extract mobile numbers and emails from OCR text.
+This cell defines regex patterns to extract mobile numbers and emails from OCR text(which is in business_card variable).
 
 - **What it does:**
   - Defines regex for mobile numbers and email addresses and more Variables as per your requirements.
