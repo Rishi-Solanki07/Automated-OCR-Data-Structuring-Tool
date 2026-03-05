@@ -7,7 +7,7 @@
 
 - IMG Hyperlinks are local (won’t open if Excel is shared).
 
-- Accuracy is ~70–95%, not guaranteed.
+- Accuracy is ~70–95%, Depends on Situation.
 
 - For PDFs or any other format, you’d need a preprocessing step (convert PDF/or other format into → JPG).
 
