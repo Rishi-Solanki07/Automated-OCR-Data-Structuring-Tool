@@ -117,7 +117,7 @@ This cell sets the folder path and checks supported image formats.
 ```python
 # 2. IMAGE FOLDER PATH
 # ----------------------------
-image_folder = r"C:\Users\admin\Desktop\RISHI_WORK12-Aug-2025\current_task_all\open_this\A_JAN_2026_TASKS\pdf\all"
+image_folder = r"C:\Users\admin\Desktop\your_path"
 
 # ----------------------------
 # 3. SUPPORTED IMAGE TYPES
@@ -390,4 +390,26 @@ TEXT:
         }
 
 print("CELL 3: GRANITE EXTRACTION READY - THIS TASK IS FINISH PROPERLY")
+```
+**final_rows(extracted info by Model) Convert into dataframe and Cell 18 helps you to save the output into .xlsx on your given path.**
+
+- **Example Output:**
+
+```text
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 89 entries, 0 to 88
+Data columns (total 10 columns):
+ #   Column               Non-Null Count  Dtype 
+---  ------               --------------  ----- 
+ 0   card                 89 non-null     object
+ 1   photo_name           89 non-null     object
+ 2   IMG_Link             89 non-null     object
+ 3   name                 89 non-null     object
+ 4   mobile_no            89 non-null     object
+ 5   secondary_mobile_no  89 non-null     object
+ 6   email                89 non-null     object
+ 7   address              89 non-null     object
+ 8   additional_info      89 non-null     object
+ 9   all_text_info        89 non-null     object
+dtypes: object(10)
 ```
