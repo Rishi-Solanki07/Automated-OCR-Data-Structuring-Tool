@@ -214,7 +214,7 @@ print("WINDOWS OCR completed for all images.")
 ```
 
 
-##  Cell 7 & 9 – Convert into DataFrame & Preview DataFrame
+##  Cell 7 & 8 – Convert into DataFrame & Preview DataFrame
 This step shows the first 10 rows of the DataFrame after Conversation.
 
 - **What it does:**
