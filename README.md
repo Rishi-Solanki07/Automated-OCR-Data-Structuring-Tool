@@ -14,3 +14,23 @@
 # Technical_Explanations
 
 **This guide explains the logic behind every code cell so you can easily follow the project from start to finish.**
+
+## 📌 Cell 1 – Environment Setup
+This cell checks the Python environment and confirms that the correct version is running.
+
+- **Why it matters:**
+  - Windows OCR libraries only work with Python `3.10.19`.  
+  - Ensures you are inside the correct Conda environment before running OCR.
+
+- **Where to modify:**
+  - No changes needed unless you want to run in a different environment.  
+  - If OCR fails, double‑check that your Python version matches `3.10.19`.
+
+```python
+import sys
+import os
+
+print("Python Version:", sys.version)
+print("Environment:", os.environ.get("CONDA_DEFAULT_ENV"))
+print("Executable Path:", sys.executable)
+```
